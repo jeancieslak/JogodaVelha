@@ -1,0 +1,62 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    color: #FFF;
+    text-shadow: -1.2px -1.2px #333;
+    background: rgb(2, 91, 94);
+  }
+body h1 {
+  font-weight: normal;
+}
+
+body .mensagem{
+  font-size: 30px;
+  color:#FFF;
+  text-shadow: none;
+}
+
+body table {
+  border-collapse: collapse;
+  width: 450px;
+  margin: 0 auto;
+}
+
+body table td {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 10mm;
+  background-color: rgb(250, 252, 252);
+}
+
+body table td:before {
+  font-size: 5em;
+  line-height: 1;
+}
+
+body table td.cruz:before {
+  content: "x";
+  color: rgb(103, 140, 232);
+}
+
+body table td.circulo:before {
+  content: "o";
+  color: rgb(220, 55, 190);
+}
+
+body .recomecar {
+  background: rgb(37, 48, 65);
+  border: 1px solid #333;
+  padding: 20px 200px;
+  color: #FFF;
+  cursor: pointer;
+  font-family: "Roboto", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+body .recomecar:hover {
+  opacity: 0.8;
+}
